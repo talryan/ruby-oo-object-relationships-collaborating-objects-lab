@@ -24,7 +24,7 @@ class Artist
             if self.all.find{|i| i.name == name}
                 self.all.find{|i| i.name == name}
             else
-                Artist.new(name)
+                self.new(name)
             end
         end
 
